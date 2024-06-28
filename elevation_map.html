@@ -28,6 +28,8 @@
 							<a href="webpage_willow_trees.html">Weeping Willows</a>
 							<a href="elevation_map.html">Elevation Map</a>
 							<a href="Pulkau_webpage.html">Carbon Sequestration</a>
+							<a href="3D_Lidar_Scene.html">3D Lidar Scene</a>
+							<a href="Land_Use_Classification.html">Land Use Classification</a>
 						</div>
 					</nav>
 
@@ -35,9 +37,14 @@
 					<div id="main">
 						<div class="inner">
 							<h1>Elevation Map</h1>
+							<p>A Relative Elevation Map (REM) can be used to show landscape elevation relative to some entitity in the landscape, in this case the river the Vecht. A REM allows for the detailed analysis of landscape features that would otherwise not be prominent in an absolute elevation map.</p>
 							<p>This map shows the relative and absolute elevations in the region of Vreeland-Overmeer (between Utrecht and Muiden). The orange part of the map shows elevation relative to the river the Vecht. The background in dark blue shows absolute elevation levels.</p>
 							<span class="image main"><img src="images/pic13.jpg" alt="" /></span>
 							<img src="images/fulls/REM_final.png" style="width:700px;height:500px;">
+							
+							<h3>Production of the map</h3>
+							<p>This map has been produced in QGIS, using the Digital Terrain Model (DTM) from an <a href="https://geotiles.citg.tudelft.nl/">open data source</a>. To make a Digital Elevation Model (DEM) I merged the downloaded data and added contrast to it. The DEM is depicted in dark blue in the figure above.</p>
+							<p>I then detrended the baseline elevation to create a map relative to river height, using the <a href="https://dancoecarto.com/creating-rems-in-qgis-the-cross-section-method">cross section method</a>. This method uses an interpolation of separately measured elevation points in the river. The interpolated elevations are then substracted from the DEM to create a detrended DEM, or REM.</p>
 						</div>
 					</div>
 

@@ -28,6 +28,8 @@
 							<a href="webpage_willow_trees.html">Weeping Willows</a>
 							<a href="elevation_map.html">Elevation Map</a>
 							<a href="Pulkau_webpage.html">Carbon Sequestration</a>
+							<a href="3D_Lidar_Scene.html">3D Lidar Scene</a>
+							<a href="Land_Use_Classification.html">Land Use Classification</a>
 						</div>
 					</nav>
 
@@ -36,9 +38,13 @@
 						<div class="inner">
 							<h1>Municipal Trees</h1>
 							<span class="image main"><img src="images/pic13.jpg" alt="" /></span>
-							<p>This Web-App shows the municipal weeping willows of Utrecht. </p>
-						<iframe src="https://uni-utrecht.maps.arcgis.com/apps/instant/basic/index.html?appid=a37e15aa558345b8bbd1c8df9f03db78" width="400" height="600" frameborder="0" style="border:0" allowfullscreen>iFrames worden niet ondersteund op deze pagina.</iframe> width="100%" height="800px" frameborder="0" style="border:0" allowfullscreen>iFrames are not supported on this page.</iframe>
-						
+							<p>For its relevance in spatial planning and the monitoring of green city spaces, the municipality of Utrecht has created a comprehensive <a href="https://data.utrecht.nl/dataset/bomenkaart">municipal trees database</a>. Using this detailed vector data, I have produced an interactive web app showing the distribution of my favourite tree in Utrecht: the weeping willow.  </p>
+							<p>Zoom in further to explore the location of all 18 municipal weeping willows of Utrecht. The total number of weeping willows per neighbourhood is depicted by a gradual colour scheme. </p>
+						<iframe src="https://uni-utrecht.maps.arcgis.com/apps/instant/basic/index.html?appid=a37e15aa558345b8bbd1c8df9f03db78" width="500" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+							<h2>Production of the Map</h2>
+							<p>This map was produced in ArcGIS by downloading the municipal trees of Utrecht, and extracting only the desired tree type from the data. Using a tool to count points within a set geographic area, the trees per neighbourhood were then determined.</p>
+							<p>Explore the map below to view the full tree data of Utrecht and their kernel density. In the bottom right corner different layers can be selected to switch between map displays. Exploring the total trees per neighbourhood layer, it can be seen that city center has the lowest tree density whereas the less densely urbanized Vleuten has the highest. </p>
+							<iframe src="https://uni-utrecht.maps.arcgis.com/apps/instant/basic/index.html?appid=3f687164d73742d79a647c159816aa28" width="500" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
 						</div>
 					</div>
 

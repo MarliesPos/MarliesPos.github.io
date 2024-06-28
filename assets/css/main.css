@@ -1806,7 +1806,18 @@ input, select, textarea {
 /* Add a color to the active/current link */
 .topnav a.active {
   background-color: #04AA6D;
-  color: white;
+  color: white
+}
+/*section image scroll bar */
+div.scroll-container {
+  background-color: #D3D3D3;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
 }
 
 /* Section/Article */
