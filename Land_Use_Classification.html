@@ -24,8 +24,8 @@
 					<nav id="topnav" class="right-menu">
 						<div class="topnav">
 							<a href="index.html">Home</a>
-							<a href="choropleth.html">Choropleth</a>
-							<a href="webpage_willow_trees.html">Weeping Willows</a>
+							<a href="choropleth.html">Choropleth Map</a>
+							<a href="webpage_willow_trees.html">Tree Vector Data</a>
 							<a href="elevation_map.html">Elevation Map</a>
 							<a href="Pulkau_webpage.html">Carbon Sequestration</a>
 							<a href="3D_Lidar_Scene.html">3D Lidar Scene</a>
@@ -39,10 +39,11 @@
 							<h1>Land Cover Classification</h1>
 							<span class="image main"><img src="images/pic13.jpg" alt="" /></span>
 							<p>Land cover classification is the organisation of different types of land cover (such as vegetation, buildings, or water) into classes. The monitoring of the earth's physical land cover has significant uses in tracking a.o. sustainable development, spatial planning and disaster risk. To create this web-app, I exported a region from Google Earth Engine and performed a supervised pixel-based classification in ArcGIS Pro. The Web-App shows a land cover classification of the region Arnhem-Nijmegen, compared to an image of the region. Please open the legend in the top-right corner to view the different classes.</p>
+							<p>The classification map appears when zooming in.</p>
 						<iframe src="https://uni-utrecht.maps.arcgis.com/apps/instant/media/index.html?appid=4cd0d896cfb74b90be8fe10e34c70e83" width="600" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
 							<p>Please scroll through the pictures below to explore the results of different methods of land cover classification. Land cover can be classified using numerous methods in ArcGIS pro. Firstly, one can choose between an unsupervised classification (carried out solely by the programme) or a supervised classification. For a supervised classification one has to train the programme to recognize certain types of land use. This training can be done based on object shape, or based on the spectral profile of pixels. Finally, one can classify land-use based on vegetation density by using the normalized difference vegetation index (NDVI).</p>
-							<p>The pictures below display the area of Arnhem-Nijmegen classified by different methods.They are shown in the following sequence: true colour composite, supervised pixel-based classification, unsupervised pixel-based classification, unsupervised object-based classification, NDVI-based classification. Finally, the the spectral profile of Arnhem used for pixel-based classifications is shown.</p>
-							<p>This sequence of maps clearly displays how different classification method can produce highly different results.</p>
+							<p>The pictures below display the area of Arnhem-Nijmegen classified by different methods. They are shown in the following sequence: true colour composite, supervised pixel-based classification, unsupervised pixel-based classification, unsupervised object-based classification, NDVI-based classification. Finally, the the spectral profile of Arnhem used for pixel-based classifications is shown.</p>
+							<p>This sequence of maps clearly displays how different classification methods can produce highly different results.</p>
 						<div class="scroll-container">
 							<img src="images/True_Colour_composite.jpg" width="450" height="300" >
 							<img src="images/supervised_pixel_based.jpg" width="450" height="300">
@@ -56,21 +57,8 @@
 				<!-- Footer -->
 					<footer id="footer">
 						<div class="inner">
-							
-							<section>
-								<h2>Follow</h2>
-								<ul class="icons">
-									<li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
-									<li><a href="#" class="icon brands style2 fa-500px"><span class="label">500px</span></a></li>
-									<li><a href="#" class="icon solid style2 fa-phone"><span class="label">Phone</span></a></li>
-									<li><a href="#" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
-								</ul>
-							</section>
 							<ul class="copyright">
-								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>&copy; GIS Portfolio </li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</footer>
